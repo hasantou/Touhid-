@@ -1,0 +1,37 @@
+# PaySim Fraud Detection
+
+End-to-end machine learning project detecting fraud in 6.3 million
+synthetic financial transactions using Python.
+
+## Key Findings
+- Only CASH_OUT and TRANSFER contain fraud — zero in all other types
+- 98.1% of fraud drains the origin account to exactly $0
+- Fraud median amount ($441k) is 6x higher than legitimate ($74k)
+- Fraud peaks at 4 AM — consistent with automated scripted attacks
+
+## Project Steps
+1. Exploratory Data Analysis
+2. Feature Engineering
+3. Class Imbalance Handling — SMOTE and class weights
+4. Model Training — Logistic Regression, Random Forest, Gradient Boosting
+5. SHAP Explainability
+
+## Model Results
+| Model | Precision | Recall | F1 | AUC-ROC |
+|---|---|---|---|---|
+| Logistic Regression | 0.037 | 0.981 | 0.071 | ~0.94 |
+| Random Forest | ~0.85 | ~0.78 | ~0.81 | ~0.97 |
+| Gradient Boosting | ~0.79 | ~0.83 | ~0.81 | ~0.97 |
+
+## Dataset
+PaySim Synthetic Financial Transactions — available on
+[Kaggle](https://www.kaggle.com/datasets/ealaxi/paysim1)
+
+## How to Run
+```bash
+pip install -r requirements.txt
+jupyter notebook paysim_fraud_detection.ipynb
+```
+
+## Author
+Touhid Hasan | MSc Data Science | University of Greenwich
