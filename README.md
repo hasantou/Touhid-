@@ -32,6 +32,8 @@ PaySim Synthetic Financial Transactions — available on
 pip install -r requirements.txt
 jupyter notebook paysim_fraud_detection.ipynb
 ```
-
+## Project Report
+A full written report covering all five steps of the analysis is available here:
+[Download Report](PaySim Fraud Detection Report.pdf)
 ## Author
 Touhid Hasan | MSc Data Science | University of Greenwich
