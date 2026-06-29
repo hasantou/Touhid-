@@ -20,8 +20,8 @@ synthetic financial transactions using Python.
 | Model | Precision | Recall | F1 | AUC-ROC |
 |---|---|---|---|---|
 | Logistic Regression | 0.0371 | 0.981 | 0.0715 | ~0.9958 |
-| Random Forest | ~1.00 | ~0.9976 | ~0.9988 | ~0.9997 |
-| Gradient Boosting | ~0.8770 | ~0.9982 | ~0.9337 | ~0.9998 |
+| Random Forest | 1.00 | 0.9976 | 0.9988 | 0.9997 |
+| Gradient Boosting | 0.8770 | 0.9982 | 0.9337 | 0.9998 |
 
 ## Dataset
 PaySim Synthetic Financial Transactions — available on
